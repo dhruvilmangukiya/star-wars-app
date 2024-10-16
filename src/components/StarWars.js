@@ -85,7 +85,7 @@ const StarWars = () => {
 
   return (
     <>
-      <div className="px-5 py-20 text-center h-screen flex flex-col justify-between max-w-[1000px]">
+      <div className="px-5 py-20 text-center lg:h-screen flex flex-col justify-between max-w-[1000px]">
         <h1 className="text-2xl font-bold">Star Wars Characters</h1>
 
         {loading && <Loader />}

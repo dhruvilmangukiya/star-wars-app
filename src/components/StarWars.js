@@ -18,6 +18,7 @@ const StarWars = () => {
   // get people list on load
   useEffect(() => {
     getPeopleList(page);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
   // get people list
